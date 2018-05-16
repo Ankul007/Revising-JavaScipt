@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>eventListeners</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script src="eventListeners.js"></script>
+</head>
+<!-- Onload function -->
+<body onload="onld()" >
+
+<!-- Onclick event  -->
+    <button onclick="onclk()">Onclick</button>
+
+<!-- On mouse over -->
+    <p onmouseover="onover()" id="chngcolor">Change My color On mouse over</p>
+
+<!-- On change  -->
+    <p>Select a new car from the list.</p>
+
+    <select id="mySelect" onchange="onchng()">
+        <option value="Audi">Audi
+        <option value="BMW">BMW
+        <option value="Mercedes">Mercedes
+        <option value="Volvo">Volvo
+    </select>
+    <p id="para"></p>
+
+<!-- on mouse out -->
+
+    <button onmouseout="onout()" id="mo">On mouse Out</button>
+
+    <!-- on keydown -->
+    Enter to see on Key Down
+    <input onkeydown="onkdown()">
+
+    
+</body>
+</html>
